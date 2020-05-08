@@ -11,5 +11,5 @@ def sendemail(message):
         msg = f"Subject: {subject}\n\n{message}"
         smtp.login(from_addr, password)
 
-        smtp.sendmail(from_addr, 'example@gmail.com', msg)
+        smtp.sendmail(from_addr, 'johnjamesbenitez06@gmail.com', msg)
         smtp.quit()
